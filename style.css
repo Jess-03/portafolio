@@ -21,6 +21,11 @@ ul li{
   list-style:none;
 }
 
+.nav-item a:first-of-type{
+  text-decoration: none;
+  color: #1E1E1E;
+}
+
 .presentation{
   position: relative;
   height: 442px;
@@ -100,11 +105,6 @@ ul li{
 .tech-display:hover{
   background-color: #c9dec9;
 }
-
-/* .tech-display img{
-  width: 36px;
-  height: 36px;
-} */
 
 .container{
   position: relative;
@@ -192,12 +192,17 @@ ul li{
   align-items: center;
   justify-content: center;
   color: #1E1E1E;
+  font-weight: 600;
 }
 
 .tech-visit a:hover{
   background-color: #c9dec9;
 }
 
+.contact{
+  text-align: end;
+  padding-right: 228px;
+}
 
 footer{
   height: 98px;
